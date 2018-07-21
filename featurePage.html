@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="icon" type="image/png" href="image/favicon.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/header+footer(css).css">
+
+<script src="js/index.js"></script>
+<title>特色VR節目｜Tilt Brush</title>
+
+<link href="css/featurePage.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+<!-- 以下為行動版之選單1107-->
+<input type="checkbox" id="mobileControl">
+<div id="mheader">
+	<div id="alignme"></div>
+	<label for="mobileControl" id="hb"><i class="fa fa-bars"></i></label>
+	<a href="index.html"><img src="image/logo.png"></a>
+	<div id="profile"><img src="image/profile.png"></div>
+</div>
+<div id="mheaderbg"></div>
+<div class="mobileMenu">
+	<ul>
+		<li><a href="feature.html">推薦內容</a></li>
+		<li><a href="place.html">查詢據點</a></li>
+		<li><a href="cardBoard.html">製作</a></li>
+		<li><a href="trend.html">趨勢</a></li>
+		<li><a href="shop.html">商店</a></li>
+		<li><a href="member.html">會員專區</a></li>
+	</ul>
+</div>
+<!-- 以上 -->
+
+<!-- 以下各頁面共用NAV1107 -->
+<nav id="nav">
+	<div id="logo">
+		<a href="index.html"><img src="image/logo.png"></a>
+	</div>
+	<ul>
+		<li><a href="feature.html">推薦內容</a></li>
+		<li><a href="place.html">查詢據點</a></li>
+		<li><a href="cardboard.html">製作</a></li>
+		<li><a href="trend.html">趨勢</a></li>
+		<li><a href="shop.html">商店</a></li>
+	</ul>
+	<div id="profile">
+		<img src="image/profile.png">
+		Roller
+		<span><a href="member.html">會員專區</a></span>
+	</div>
+</nav>
+<!-- 墊在NAV正下方的區塊以製造height:100px -->
+<div class="navbg"></div>
+<!-- 以上 -->
+<!-- 以上 -->
+	<div id="wrapper">
+		<div id="basicIntro">
+			<div id="rss"><a href="#">訂閱開發者動態</a></div>
+			<div id="pdn">Tilt Brush</div>
+			<div id="author">
+				<i class="fa fa-user"></i>
+					<span><a href="#">Patrick Hackett</a><a href="#">Drew Skillman</a></span>
+				<i class="fa fa-clock-o"></i>
+					<span>2017年4月</span>
+				<i class="fa fa-heart"></i>
+					<span>45,354</span>
+				<div class="tag">#Google</div>
+				<div class="tag">#art</div>
+			</div>
+		</div>
+		<div id="productimg">
+			<iframe src="video/features-brushes.mp4" frameborder="0" name="showBig">
+				<video autoplay="true" muted="false" loop="true">
+					<source src="video/features-brushes.mp4" type="video/mp4">
+				</video>
+			</iframe>
+			<div id="imgShow">
+				<a href="video/features-brushes.mp4" target="showBig"><img src="image/fp_artist_09.jpg">
+					<span class="specialty">多元筆刷選擇</span>
+				</a>
+				<a href="video/features-brushes_02.mp4" target="showBig"><img src="image/fp_artist_11.jpg">
+					<span class="specialty">直覺化介面</span></a>
+				<a href="video/features-brushes_03.mp4" target="showBig"><img src="image/fp_artist_12.jpg">
+					<span class="specialty">穿梭畫作之間</span></a>
+				<a href="video/vh_01.mp4" target="showBig"><img src="image/fp_artist_13.jpg">
+					<span class="specialty">馬上開始吧！</span></a>
+			</div>
+		</div>
+		<div id="left">
+		<div id="intro">
+			<h2>說明</h2>
+			<p>
+		<b>1.立體的作畫空間</b>：你可以在空間描繪任意形狀，比如你可以畫一座房子，並且「鑽」到房子裡面去裝修牆壁、畫上牆紙，然後又可以走出去在門口畫一顆樹，就像在現實世界建造東西一樣。<br><br>
+		
+		<b>2.多種作畫素材提供選擇</b>：支持許多新的作畫材料，例如光線、火、激光、星星等等。不只是作畫，更像是高級版的積木，如同從無到有創造一個世界的感覺。<br><br>
+		
+		<b>3.多種作畫環境選擇，創造各色世界</b>：你可選擇雪地、星夜諸多特定環境，相當於創造世界的背景，比如在雪地作畫時，已經有一個堆好的雪人，你可以給它添加帽子、插上掃帚、設計衣服並穿上，還可再脫下。</p>
+		
+		
+		<h2>最新功能</h2>
+		
+		<p>Tilt Brush的最新版本新增了「Selection Tool」，這個工具可允許你選擇和重複場景中的筆畫。「Selection」工具可通過Tools面板訪問，就在「Eraser」按鈕的旁邊。你可以通過扳機鍵選擇筆畫；點按拇指鍵（Vive）或「A/X」按鈕（Rift）可進入取消選擇模式。如果你想進行移動，只需抓住它移動即可，像其他場景中的模型一樣。如果需要刪除一組選定的筆畫，你只需將其移開即可。對藝術創作者而言，相信 「Selection Tool」中的重複功能會令他們感到開心。你可以按住拇指鍵（Vive）或「A/X」按鈕（Rift），同時移動控制器並與所選筆畫相交，這樣你就能重複選擇，快速重建筆畫或模型，十分節省時間。</p>
+		
+		<p>谷歌於兩個月前推出了VR創意工具Blocks，使用者無需太多建模經驗即可進行3D建模創作。你在Blocks中創建的對象可能看上去很簡單，但隨著你不斷使用這款應用，你就會日益明白這款工具對於3D建模的重要性。你可以直觀地在Blocks中創建對象或角色，然後導出至Unity。這有可能改變開發者創建下一款VR遊戲或場景的方法。</p>
+		</div>
+		
+		<div id="recomm">
+			<h2>3則評論</h2>
+			<div class="comment">
+				<div class="profile">
+					<img src="image/profile.png">
+					<div class="text">
+						<span>Roller</span> : 效果和功能讓人驚艷！
+					</div>
+				</div>
+				<div class="stararea">
+					<div class="stars">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+				</div>
+			</div>
+			<div class="comment">
+				<div class="profile">
+					<img src="image/friend1.jpg">
+					<div class="text">
+						<span>Manna</span> : 受到空間限制有點可惜。
+					</div>
+				</div>
+				<div class="stararea">
+					<div class="stars">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+				</div>
+			</div>
+			<div class="comment">
+				<div class="profile">
+					<img src="image/friend2.jpg">
+					<div class="text">
+						<span>Alin</span> : 筆刷的效果很豐富！
+					</div>
+				</div>
+				<div class="stararea">
+					<div class="stars">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div id="right">
+			<div id="info">
+				<div id="price">NT$489元</div>
+				<div id="act">
+					<p><i class="fa fa-heart-o"></i></p>
+					<p><i class="fa fa-cart-plus"></i></p>
+				</div>
+		
+				<ol>
+					<li><i class="fa fa-laptop"></i>平台名稱：Rift</li>
+					<li><i class="fa fa-comment-o"></i>
+					英文、中文、法文</li>
+					<li><i class="fa fa-bitbucket"></i>14.3-4b7faa4</li>
+					<li><i class="fa fa-wifi"></i>需要網路連線</li>
+					<li><i class="fa fa-user"></i>單一用戶</li>
+					<li><i class="fa fa-home"></i>大約7坪的方正空間</li>
+					<li><i class="fa fa-headphones"></i>內建六種類型音樂</li>
+				</ol>
+			</div>
+		</div>
+	</div>
+
+<div id="artist">
+	<h2>社群創作</h2>
+	<div class="painting scrollimage"></div>
+	<div class="painting scrollimage"></div>
+	<div class="painting scrollimage"></div>
+	<div class="painting scrollimage"></div>
+	<div class="painting scrollimage"></div>
+	<div class="painting scrollimage"></div>
+	<div class="painting scrollimage"></div>
+	<div class="painting scrollimage"></div>
+	<div class="painting scrollimage"></div>
+	<div class="painting scrollimage"></div>
+	<div class="painting scrollimage"></div>
+	<div class="painting scrollimage"></div>
+	<div class="painting scrollimage"></div>
+	<div class="painting scrollimage"></div>
+	<div class="painting scrollimage"></div>
+	<div class="painting scrollimage"></div>
+	<div class="painting scrollimage"></div>
+	<div class="painting scrollimage"></div>
+	<div class="painting scrollimage"></div>
+	<div class="painting scrollimage"></div>
+</div>
+
+<!-- 線上即時客服功能1113 -->
+<div id="clerk">
+	<input type="checkbox" id="clerkPanel">
+	<label for="clerkPanel" id="ttch">
+		<i class="fa fa-comments-o"></i>
+	</label>
+	<div class="clerkMenu">
+	<p>
+		<img src="image/sally.png">
+	Hi Roller, 有什麼可以為您服務的嗎？</p>
+	<input type="textarea" placeholder="請輸入...">
+	</div>
+</div>
+<!-- 以上 -->
+
+<!-- 以下各頁面共用footer, copyright 1107 -->
+<div id="footer">
+	<div id="text">
+		<h6><br>
+			<a href="#">推薦內容</a><br>
+			<a href="#">推薦場館</a><br>
+			<a href="#">產品</a>
+		</h6>
+		<h6><br>
+			<a href="#">部落格</a><br>
+			<a href="#">趨勢</a><br>
+			<a href="#">商店</a>
+		</h6>
+		<h6><br>
+			<a href="#">收藏</a><br>
+			<a href="#">我的社群</a><br>
+			<a href="#">我的影片</a><br>
+		</h6>
+		<h6><br>
+			<a href="#">886-03-425-7387*999</a><br>
+			<a href="#">台灣桃園市米羅公園路1號</a><br>
+			<a href="#">No. 1, Menlo Park Rd., Taoyuan City, Taiwan(R.O.C.)</a>
+		</h6>
+	</div>
+</div>
+
+<div id="copyright">
+	<h6>©  2017 eye, WOW! Group. All Rights Reserved.</h6>
+</div>
+<!-- 以上 -->
+</body>
+</html>

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="icon" type="image/png" href="image/favicon.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/header+footer(css).css">
+<script type="text/javascript" src="js/index.js"></script>
+<title>【趨勢前線】虛擬現實的渾沌重生</title>
+<script src="js/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/trendPage.css">
+<script>
+	$(document).ready(function(){
+		$('#leftBoard').hover(function(){
+			$(this).stop().animate({left: '50px',}, 1000, 'easeOutQuart');
+		},function(){
+			$(this).stop().animate({left: '-155px'}, 1500, 'easeOutCirc');
+		});
+		$('#rightBoard').hover(function(){
+			$(this).stop().animate({right: '20px',}, 1000, 'easeOutQuart');
+		},function(){
+			$(this).stop().animate({right: '-190px'}, 1500, 'easeOutCirc');
+		});
+	});			
+</script>
+</head>
+<body>
+<!-- 以下為行動版之選單1107-->
+<input type="checkbox" id="mobileControl">
+<div id="mheader">
+	<div id="alignme"></div>
+	<label for="mobileControl" id="hb"><i class="fa fa-bars"></i></label>
+	<a href="index.html"><img src="image/logo.png"></a>
+	<div id="profile"><img src="image/profile.png"></div>
+</div>
+<div id="mheaderbg"></div>
+<div class="mobileMenu">
+	<ul>
+		<li><a href="feature.html">推薦內容</a></li>
+		<li><a href="place.html">查詢據點</a></li>
+		<li><a href="cardBoard.html">製作</a></li>
+		<li><a href="trend.html">趨勢</a></li>
+		<li><a href="shop.html">商店</a></li>
+		<li><a href="member.html">會員專區</a></li>
+	</ul>
+</div>
+<!-- 以上 -->
+
+<!-- 以下各頁面共用NAV1107 -->
+<nav id="nav">
+	<div id="logo">
+		<a href="index.html"><img src="image/logo.png"></a>
+	</div>
+	<ul>
+		<li><a href="feature.html">推薦內容</a></li>
+		<li><a href="place.html">查詢據點</a></li>
+		<li><a href="cardboard.html">製作</a></li>
+		<li><a href="trend.html">趨勢</a></li>
+		<li><a href="shop.html">商店</a></li>
+	</ul>
+	<div id="profile">
+		<img src="image/profile.png">
+		Roller
+		<span><a href="member.html">會員專區</a></span>
+	</div>
+</nav>
+<!-- 墊在NAV正下方的區塊以製造height:100px -->
+<div class="navbg"></div>
+<!-- 以上 -->
+<!-- 以上 -->
+
+<div id="leftBoard">
+	<div class="alignme"></div>
+	<a href="trend.html">
+		<img src="image/trends_dev.png" class="myPhoto">
+	</a>
+	<i class="fa fa-chevron-left"></i>
+	<h5>回到文章總覽</h5>
+</div>
+<div id="rightBoard">
+	<div class="alignme"></div>
+	<div id="textBoard">
+		<h5>下一篇：<br>
+			<h6>【商業想像】透過虛擬實境，來到大體驗商機時代</h6></h5>
+	</div>
+	<i class="fa fa-chevron-right"></i>
+	<a href="trendPage1.html">
+		<img src="image/trend_page1.jpg" class="myPhoto">
+	</a>
+</div>
+
+
+<div id="wrapper">
+
+<div id="left">
+
+<div id="bn">
+	<img src="image/trend_page.jpg">
+</div>
+<div id="title">
+	<h1>【趨勢前線】虛擬現實的渾沌重生</h1>
+</div>
+
+
+<div id="fback">
+	<div id="author">作者：<span><a href="#">王寒</a></span>（蘋果平臺資深開發者）</div>
+	<br>
+<i class="fa fa-eye"></i>7,290瀏覽人次
+<i class="fa fa-facebook-square"></i>
+<i class="fa fa-linkedin-square"></i>
+<i class="fa fa-twitter-square"></i>
+
+</div>
+
+<div id="trendintro">
+
+	<p>
+	<b>緣起</b><br><br>2014年3月，Facebook宣布以20億美元收購虛擬實境設備Oculus Rift的製造商Oculus VR。以此事件為標誌，自20世紀九○年代如流星般劃過天際而後沉寂二十多年的虛擬實境領域，特別是沉浸式虛擬實境領域再度滿血復活，涅槃重生。一時間，眾多科技巨頭紛紛湧入這個新興市場，或參與對創業團隊的投資，或自己組建強大的產品團隊。VR和AR這兩個拗口的科技名詞迅速風靡全世界。<br><br>
+
+	目前除了蘋果之外，國際上知名的科技公司幾乎無一缺席這場盛宴，Facebook、Google、微軟、Samsung、Sony、Intel、Nvidia、Nokia、LG、HTC等公司都爭先恐後，不甘示弱。幾款極具代表性的產品尚未上市就已經受到消費者和產業的狂熱期待，包括 Facebook 旗下的Oculus Rift、Google的Google Cardboard和Google Jump、微軟的HoloLens、Samsung的Gear VR、Sony的Playstation VR、HTC和Valve 聯手推出的HTC Vive等。<br><br>
+
+	到了2015 年下半年，在經歷了史上前所未有的股災之後，傳統行業和新生的互聯網行業都受到沉重打擊，國內互聯網巨頭、金融資本和產業資本紛紛將目光投向下一個可能帶來革命性變革的計算平臺──虛擬實境。以BAT為首的互聯網巨頭從2015年10月開始瘋狂佈局VR/AR領域，而傳統行業以奧飛動漫和順網科技為代表也密集投資VR/AR的創業團隊，期待在這個未來平臺的大蛋糕上分一杯羹。<br><br></p>
+	
+	<p>
+		<b>問題──迷茫和困惑</b>
+	</p>
+	
+	<p>VR/AR在極短時間內的火爆讓我這個愛好者目瞪口呆。但遺憾的是，除了科技媒體和極客們在各種展會上如同打雞血一般表達興奮激動之情外，普通大眾仍然離這些設備十分遙遠。即便是偶爾有機會得以體驗，在小小的激動之餘，都會問一些目前還沒有被很好解決的問題：這些看起來很酷的東西究竟能做些什麼？虛擬實境究竟能解決什麼需求？我為什麼要買這個東西？還有些人會問：究竟什麼是虛擬實境？什麼是擴增實境？<br><br>		
+
+有些非文化娛樂行業的兄弟會問：這東西除了看電影、打遊戲等比較明顯的用途之外還有什麼用？戴在頭上又重又沉，誰會沒事找罪受？<br><br>	
+
+有人會問：虛擬實境是不是就是虛擬實境頭盔？那個看起來很酷的萬向跑步機究竟是幹嘛的？<br><br>
+
+極客們和學校的同學會問：虛擬實境這麼酷的東西，究竟是怎麼實現的？體驗過的嘗鮮者會問：我戴上頭盔會暈會吐，這問題能解決嗎？什麼時候能解決？<br><br>
+
+想創業的、想投資的和想在這個領域發展的兄弟們會問：虛擬實境行業都有哪些公司、哪些產品？還有哪些商機可以去嘗試？虛擬實境技術究竟會帶來怎樣的商機？什麼樣的虛擬實境公司值得投資？虛擬實境這東西僅僅是一項技術，究竟能滿足大家的什麼實際需求？如果滿足不了需求，光靠技術能賺錢嗎？<br>	<br>	
+
+有些心懷未來的朋友會問：虛擬實境未來究竟會怎麼發展？現在的虛擬實境行業是不是泡沫般的虛榮繁華？會不會出現20世紀90年代的虛擬實境行業大<br><br>
+
+崩盤？再過30年虛擬實境會發展成什麼樣子？<br><br>
+
+這個行業究竟什麼時候能爆發？現在的火熱究竟是虛火，還是說行業真的開始引爆了？<br><br>
+
+</p>
+	<p>
+		<b>思考──答案在哪里</b>
+	</p>
+<p>看到上面的問題，我首先想到的是打開百度和谷歌，的確有很多有用的訊息，但這些資訊帶著這個時代獨有的特徵，過於碎片化、商業化，或是明顯的商業廣告，或是暗黑的悲觀打壓，或是長篇廢話中夾雜著些許精闢的真言。但不管怎樣，這些資訊還是部分回答了我想知道的一些問題。為此，我要點1000個讚。<br><br>
+
+然後我想到了找國內外的相關書籍，首先是國內的書籍，零零星星還是找到了一些，大部分都是由高校或研究機構的老師撰寫的。看完後我感到很佩服，國內一直有高校、科研機構和一些商業機構在從事這方面的研究和開發工作。但是<br><br>
+
+遺憾的是， 這些書籍裡面的內容（無論是從技術角度還是從商業角度）很多已經跟不上時代了，至於近幾年虛擬現實行業如火如荼的發展，裡面更是鮮有提及。同時，因為這些書籍主要是由科研人員撰寫的，普通大眾看稍顯晦澀。<br><br>
+
+接下來我又找了國外的相關書籍，出乎意料的是國外關於虛擬實境的書籍竟然也不多。當然有那麼一兩本還是很給力的，如 Infinite Reality: Avatars, Eternal Life, New Worlds, and the Dawn of the Virtual Revolution，已經翻譯成中文， 書名是《 虛擬現實：從阿凡達到永生》。不過這本書的內容更多是對未來的一種暢想，並沒有真正給出我想要的那些問題的答案。<br><br>
+
+最後我去了Quora、知乎，還有國內外的一些論壇、討論群和社交網站，發現這些地方才是真正的資訊寶藏。但是遺憾的是，這些資訊太過於碎片化了，而且基本上只是涵蓋了一兩個問題的一兩個方面而已。<br><br>
+
+如果想讓更多國內的朋友真正接觸和瞭解虛擬現實以及它的巨大潛力，這些 資訊是遠遠不夠的。<br><br>
+
+在更深入接觸虛擬實境的過程中，我越來越強烈地感覺到，非但我自己想知 道這些問題的答案，很多朋友在體驗了哪怕是仍處於原型階段的虛擬實境產品（如Gear VR、Oculus Rift、Leap Motion等）後，也都對虛擬現實產生了強烈的興趣。但興趣歸興趣，他們想要知道的那些問題，並沒有人給出答案。於是很快興趣消退，大家把虛擬實境產品當成了極客的玩具。好玩歸好玩，但好像沒什麼用。一兩天過去後，一兩周過去後，一切好像都成了一個夢，沒有留下一絲痕跡。當然，要解決虛擬實境的內容問題非一日之功，但大眾對於虛擬實境的諸多誤解、諸多疑問沒有得到解決卻是當下真實的情況。
+</p>
+<br><br>
+<p>
+	<b>答案──《虛擬實境》帶你真正瞭解虛擬實境</b>
+</p>
+<p>我遇到這些問題的時候，曾求助於機械工業出版社華章公司的楊福川，想讓他推薦幾本書。楊兄很熱心地推薦了幾本書，但看完後很遺憾地發現，這些書也不是我想要的，沒太大用處，更不能解決我的種種疑問。於是在2014年上半年的時候，我萌生了寫一本介紹虛擬實境的科普類書籍的想法，並開始收集整理相 關的資訊和資料。<br><br>
+
+在經過了大半年的行業觀察和儲備後，我和楊兄達成了一致，計畫在2016年出版一部關於虛擬實境的科普書籍，向極客、創業者和投資人、管理者以及最普通的大眾消費者全面介紹虛擬實境，讓更多人真正認識和瞭解虛擬實境。</p><br><br>
+<p>
+	<b>未來──虛擬實境革命浪潮已然來襲</b>
+</p>
+<p>在吳軍博士的《浪潮之巔》一書中曾經提到，100多年來，總有一些公司很幸運地、有意識或者無意識地站在技術革命的浪尖之上。一旦處在了那個位置，即使不做任何事， 也可以隨著波浪順順當當地向前漂個10年甚至更長的時間。在這十幾年間，它們代表著科技的浪潮，直到下一波浪潮來臨。<br><br>
+
+小米董事長雷軍在當年宣佈進軍移動互聯網市場時曾說過一句廣為人知的話：「把握戰略點，把握時機，要遠遠超過了戰術。一頭豬在風口，颱風大，它就能飛起來。」<br><br>
+
+在PC時代，我們見證了太平洋彼岸的蘋果、微軟和Intel發跡於草莽之中，並成就「帝國偉業」。<br><br>
+
+在互聯網時代，我們親歷了國內互聯網三巨頭BAT從只有數人的創業團隊成長為今天擁有數千億美元市值，改變了整個經濟生態的產業巨鱷。<br><br>
+
+在移動互聯網時代，我們目睹了曾經瀕臨破產的蘋果在約伯斯的帶領下上演王者歸來，江山二分；同時也對Nokia、Motorola這些公司未能把握好時代浪潮而走下昔日神壇感到惋惜。<br><br>
+
+2016年1月，在蘋果發佈的最新財報上，i Phone　 的銷量相比2015年同期首次出現近乎零增長的可怕現象。這意味著，以蘋果為首的整個移動互聯網行 業已經走到了拐點，即將步入增長停滯，甚至是逐漸衰退的時期，就如同當年的 PC 市場一樣。<br><br>
+
+那麼，有望如智慧手機一樣打造下一個計算平臺，撐起下一個十年的技術革 命究竟是什麼？<br><br>
+
+有人說是人工智慧和機器人， 君不見AlphaGo最近完勝世界圍棋第一人李世石的戰績讓對圍棋不感興趣的大叔大媽都為之膽寒。然而我個人認為，人工智能，特別是強人工智慧的發展還處於極其早期的階段，弱人工智慧憑藉強大無比的計算能力和深度學習演算法可以在各種專業領域超越，但因為腦科學發展的滯後，AI仍然需要一定時間的發展期。我堅信二三十年後人工智慧和機器人會掀起真正的革命，但現在似乎還為時尚早。<br><br>
+
+有人說是物聯網和可穿戴設備，聽起來也有幾分道理。但物聯網的問題在於各種智慧設備之間群龍無首，很多所謂的智慧家居家電設備只不過是傳統的電子設備配上個移動APP進行操控而已。物聯網和智慧可穿戴設備的真正崛起其實和AI人工智慧的發展息息相關。從本質上說，需要人手動進行操控的智慧設備並不是真正的智慧設備，這和傳統設備配個遙控器沒有本質的區別。或許我的話有點偏激，但從另一個角度看，一個計算平臺必須有一種主導設備。至少在物聯網上我們看不到這一點，更多的只不過是移動互聯網的延伸而已。<br><br>
+
+在當前這個時間點，唯有虛擬實境技術（VR和AR）最有可能打造下一個計算平臺，並形成一個堪與移動互聯網相提並論的產業。<br><br>
+
+在接下來的5年內，VR（沉浸式虛擬實境）技術會首當其沖，通過遊戲、娛樂、影視和各類行業應用深入千家萬戶。 AR 技術在這段時間內會快速做好技術儲備，並初步展示它的驚人潛力。<br><br>
+
+隨後的5～10年內，逐漸成熟起來的AR（擴增實境）和MR（混合實境）技術則將徹底改變人類生活的每一個方面，包括娛樂、社交、設計、工作等。就如同電腦、互聯網和移動互聯網曾經對人類生活做出的巨大革命一樣。<br><br>
+
+我們經歷了「電腦+」時代 、「互聯網+」時代、「移動互聯網+」時代，如今正站在「虛擬實境+」時代的門檻上。 不管你是一個追求極致遊戲體驗的遊戲迷，還是一個喜歡磅礴氣勢的電影迷，還是喜歡宅在家裡跟人線上交流的二次元迷，還是一個正在尋找未來方向的創業者，還是正在尋求在新興行業布局的產業資本家，都應該多多少少了解一點虛擬實境。因為不管我們是否相信，虛擬實境的時代大門已經開啟。我們可以選擇去主動擁抱這場技術革命，也可以選擇故步自封，流連於往日的技術繁榮。<br><br>
+
+時代的浪潮會推動著我們向前進。「天下大勢，浩浩湯湯，順之者昌，逆之者亡。」對於技術革命來說，還不會涉及生死存亡，但緊緊跟隨時代的浪潮會讓我們前進的步伐更加有力，也更加順暢。</p>
+<br><br>
+
+<a href="placePage.html"><img src="image/pp_intro.jpg"></a>
+</div>
+
+<div id="recomm">
+	<h3>3則評論</h3>
+	<div class="comment">
+		<div class="profile">
+			<img src="image/profile.png">
+			<div class="text">
+				<span>Roller</span> : 非常有洞察力的文章。
+			</div>
+		</div>
+		<div class="stararea">
+			<div class="stars">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+		</div>
+	</div>
+	<div class="comment">
+		<div class="profile">
+			<img src="image/friend1.jpg">
+			<div class="text">
+				<span>Manna</span> : 推作者大大！
+			</div>
+		</div>
+		<div class="stararea">
+			<div class="stars">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			</div>
+		</div>
+	</div>
+	<div class="comment">
+		<div class="profile">
+			<img src="image/friend2.jpg">
+			<div class="text">
+				<span>Alin</span> : 我對VR的前景不會這麼樂觀
+			</div>
+		</div>
+		<div class="stararea">
+			<div class="stars">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+				<i class="fa fa-star-o"></i>
+				<i class="fa fa-star-o"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<div id="right">
+
+<div id="info">
+	<a href="placePage.html"><img src="image/THEVOID.jpg"></a>
+	<div id="price">THE VOID VR Theme Park</div>
+	<div id="act">
+		<p><i class="fa fa-heart-o"></i></p>
+		<p><i class="fa fa-car"></i></p>
+	</div>
+
+	<ol>
+		<li><i class="fa fa-clock-o"></i>11:00~04:00 周一休館</li>
+		<li><i class="fa fa-map-marker"></i>地址：644 N 2000 W, Lindon, UT 84042</li>
+		<li><i class="fa fa-comment-o"></i>英文、中文、法文</li>
+		<li><i class="fa fa-thumbs-up"></i>簡介：VOID 是 OCTPUS 與華娜姊妹影視公司共同打造全台第一座 VIVE VR 實境樂園，擁有最強大的 VR 設備整合技術、集結超多新款 VR 遊樂內容、打造出虛擬與真實零誤差、比真實更真實的體驗環境，絕對會激發你感官的無限潛能，帶給你前所未有的娛樂享受。 <br><br><br>
+			
+		</li>
+	</ol>
+</div>
+
+<div id="map">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.257576977499!2d-73.99106684955946!3d40.75635917922568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25854a9d7a5cd%3A0xf7a2e7477b505499!2zMjM0IFcgNDJuZCBTdCwgTmV3IFlvcmssIE5ZIDEwMDM2576O5ZyL!5e0!3m2!1szh-TW!2stw!4v1509983665436" style="border:0" allowfullscreen></iframe>
+</div>
+
+</div>
+</div>
+
+
+<!-- 線上即時客服功能1113 -->
+<div id="clerk">
+	<input type="checkbox" id="clerkPanel">
+	<label for="clerkPanel" id="ttch">
+		<i class="fa fa-comments-o"></i>
+	</label>
+	<div class="clerkMenu">
+	<p>
+		<img src="image/sally.png">
+	Hi Roller, 有什麼可以為您服務的嗎？</p>
+	<input type="textarea" placeholder="請輸入...">
+	</div>
+</div>
+<!-- 以上 -->
+
+<!-- 以下各頁面共用footer, copyright 1107 -->
+<div id="footer">
+	<div id="text">
+		<h6><br>
+			<a href="#">推薦內容</a><br>
+			<a href="#">推薦場館</a><br>
+			<a href="#">產品</a>
+		</h6>
+		<h6><br>
+			<a href="#">部落格</a><br>
+			<a href="#">趨勢</a><br>
+			<a href="#">商店</a>
+		</h6>
+		<h6><br>
+			<a href="#">收藏</a><br>
+			<a href="#">我的社群</a><br>
+			<a href="#">我的影片</a><br>
+		</h6>
+		<h6><br>
+			<a href="#">886-03-425-7387*999</a><br>
+			<a href="#">台灣桃園市米羅公園路1號</a><br>
+			<a href="#">No. 1, Menlo Park Rd., Taoyuan City, Taiwan(R.O.C.)</a>
+		</h6>
+	</div>
+</div>
+
+<div id="copyright">
+	<h6>©  2017 eye, WOW! Group. All Rights Reserved.</h6>
+</div>
+<!-- 以上 -->
+</body>
+</html>

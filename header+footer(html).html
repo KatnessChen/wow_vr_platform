@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<title>每頁的nav+footer html部分</title>
+<link rel="stylesheet" type="text/css" href="css/header+footer(css).css">
+<script type="text/javascript" src="js/index.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<script type="text/javascript">
+	$(document).on("scroll", function() {
+		if ($(document).scrollTop() > 120) {
+			$("nav").addClass("small");
+		} else {
+			$("nav").removeClass("small");
+		}
+	});
+</script>
+
+</head>
+<body>
+<!-- 以下為行動版之選單1107-->
+<input type="checkbox" id="mobileControl">
+<div id="mheader">
+	<div id="alignme"></div>
+	<label for="mobileControl" id="hb"><i class="fa fa-bars"></i></label>
+	<a href="index.html"><img src="image/logo.png"></a>
+	<div id="profile"><img src="image/profile.png"></div>
+</div>
+<div id="mheaderbg"></div>
+<div class="mobileMenu">
+	<ul>
+		<li><a href="feature.html">推薦內容</a></li>
+		<li><a href="place.html">查詢據點</a></li>
+		<li><a href="cardBoard.html">製作</a></li>
+		<li><a href="trend.html">趨勢</a></li>
+		<li><a href="shop.html">商店</a></li>
+		<li><a href="member.html">會員專區</a></li>
+	</ul>
+</div>
+<!-- 以上 -->
+
+<!-- 以下各頁面共用NAV1107 -->
+<nav id="nav">
+	<div id="logo">
+		<a href="index.html"><img src="image/logo.png"></a>
+	</div>
+	<ul>
+		<li><a href="feature.html">推薦內容</a></li>
+		<li><a href="place.html">查詢據點</a></li>
+		<li><a href="cardboard.html">製作</a></li>
+		<li><a href="trend.html">趨勢</a></li>
+		<li><a href="shop.html">商店</a></li>
+	</ul>
+	<div id="profile">
+		<img src="image/profile.png">
+		Roller
+		<span><a href="member.html">會員專區</a></span>
+	</div>
+</nav>
+<!-- 墊在NAV正下方的區塊以製造height:100px -->
+<div class="navbg"></div>
+<!-- 以上 -->
+<!-- 以上 -->
+
+
+<!-- 線上即時客服功能1107 -->
+<div id="clerk">
+	<input type="checkbox" id="clerkPanel">
+	<label for="clerkPanel" id="ttch">
+		<i class="fa fa-comments-o"></i>
+	</label>
+	<div class="clerkMenu">
+	<p><i class="fa fa-user-secret"></i>Hi Roller, 有什麼可以為您服務的嗎？</p>
+	<input type="textarea" placeholder="請輸入...">
+	</div>
+</div>
+<!-- 以上 -->
+
+<!-- 以下各頁面共用footer, copyright 1107 -->
+<div id="footer">
+	<div id="text">
+		<h6><br>
+			<a href="feature.html">推薦內容</a><br>
+			<a href="place.html">推薦場館</a><br>
+			<a href="featurePage.html">產品</a>
+		</h6>
+		<h6><br>
+			<a href="trendPage.html">部落格</a><br>
+			<a href="trend.html">趨勢</a><br>
+			<a href="shop.html">商店</a>
+		</h6>
+		<h6><br>
+			<a href="member.html">收藏</a><br>
+			<a href="member.html">我的社群</a><br>
+			<a href="member.html">我的影片</a><br>
+		</h6>
+		<h6><br>
+			<a href="#">886-03-425-7387*999</a><br>
+			<a href="#">台灣桃園市米羅公園路1號</a><br>
+			<a href="#">No. 1, Menlo Park Rd., Taoyuan City, Taiwan(R.O.C.)</a>
+		</h6>
+	</div>
+</div>
+
+<div id="copyright">
+	<h6>©  2017 eye, WOW! Group. All Rights Reserved.</h6>
+</div>
+<!-- 以上 -->
+</body>
+</html>

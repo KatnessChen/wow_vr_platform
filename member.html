@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="icon" type="image/png" href="image/favicon.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/header+footer(css).css">
+<!-- <script type="text/javascript" src="js/index.js"></script> -->
+<title>WOW會員專區</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/member.css">
+
+<script>
+	$(function(){
+    var $li = $('ul.clearfix li');
+    
+        // 進入時預設點擊第一個頁籤，除了第一個 content 其他 content 隱藏
+        $($li. eq(0).addClass('active').addClass('.changeColor').find('a').attr('href')).siblings('.content').hide();
+    
+        $li.click(function(){
+            $($(this).find('a').attr('href')).show().addClass('.changeColor').siblings('.content').hide();
+            $(this).addClass('active').siblings('.active').removeClass('active');
+        });
+    });
+</script>
+</head>
+<body>
+<!-- 以下為行動版之選單1107-->
+<input type="checkbox" id="mobileControl">
+<div id="mheader">
+	<div id="alignme"></div>
+	<label for="mobileControl" id="hb"><i class="fa fa-bars"></i></label>
+	<a href="index.html"><img src="image/logo.png"></a>
+	<div id="profile"><img src="image/profile.png"></div>
+</div>
+<div id="mheaderbg"></div>
+<div class="mobileMenu">
+	<ul>
+		<li><a href="feature.html">推薦內容</a></li>
+		<li><a href="place.html">查詢據點</a></li>
+		<li><a href="cardBoard.html">製作</a></li>
+		<li><a href="trend.html">趨勢</a></li>
+		<li><a href="shop.html">商店</a></li>
+		<li><a href="member.html">會員專區</a></li>
+	</ul>
+</div>
+<!-- 以上 -->
+
+<!-- 以下各頁面共用NAV1107 -->
+<nav id="nav">
+	<div id="logo">
+		<a href="index.html"><img src="image/logo.png"></a>
+	</div>
+	<ul>
+		<li><a href="feature.html">推薦內容</a></li>
+		<li><a href="place.html">查詢據點</a></li>
+		<li><a href="cardboard.html">製作</a></li>
+		<li><a href="trend.html">趨勢</a></li>
+		<li><a href="shop.html">商店</a></li>
+	</ul>
+	<div id="profile">
+		<img src="image/profile.png">
+		Roller
+		<span><a href="member.html">會員專區</a></span>
+	</div>
+</nav>
+<!-- 墊在NAV正下方的區塊以製造height:100px -->
+<div class="navbg"></div>
+<!-- 以上 -->
+<!-- 以上 -->
+
+<div class="memName">
+	<div class="alignme"></div>
+	<div class="name">
+		<img src="image/profile.png">
+		<p>Roller Zuckerberg</p>
+	</div>
+</div>
+
+<div id="wrapper">
+	<div class="controlPanel">
+	<ul class="clearfix">
+		<li><a href="#tab1" title="">
+		<i class="fa fa-smile-o"></i>
+		我的體驗<span>(5)</span>
+		</a></li>
+        <li><a href="#tab2" title="">
+		<i class="fa fa-gratipay"></i>
+        我的收藏<span>(4)</span>
+        </a></li>
+        <li><a href="#tab3" title="">
+		<i class="fa fa-user"></i>
+        我的社群<span>(2)</span>
+    	</a></li>
+        <li><a href="#tab4" title="">
+		<i class="fa fa-television"></i>
+        我的設備<span>(1)</span>
+    	</a></li>
+        <li><a href="#tab5" title="">
+        <i class="fa fa-thumbs-up"></i>
+        我的製作<span>(1)</span>
+    	</a></li>
+        <li><a href="#tab6" title="">
+		<i class="fa fa-cart-plus"></i>
+        購物車<span>(0)</span>
+    	</a></li>
+	</ul>
+</div>
+
+<div class="content" id="tab1">
+	<div class="container">
+		<div class="contentUnit">
+			<div class="title">已體驗</div>
+			<div class="data">
+				<a href="featurePage.html"><div class="dataUnit">
+						<img src="image/tilt_brush.jpg">
+						Tilt Brush
+					</div></a>
+				<div class="dataUnit">
+					<img src="image/memPic.jpg">
+					MermaidVR Video Player
+				</div>
+			</div>
+		</div>
+		<div class="contentUnit">
+			<div class="title">免費體驗</div>
+			<div class="data">
+				<div class="data">
+				<div class="dataUnit">
+					<img src="image/memPic2.jpg">
+					Cooltour VR
+				</div>
+				<div class="dataUnit">
+					<img src="image/memPic6.png">
+					Pearl
+				</div>
+				<div class="dataUnit">
+					<img src="image/memPic7.jpg">
+					Special Delivery
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="content"  id="tab2">
+	<div class="container">
+		<div class="contentUnit">
+			<div class="title">收藏內容</div>
+			<div class="data">
+				<div class="dataUnit">
+					<img src="image/memPic4.jpg">
+					Discovery VR
+				</div>
+				<div class="dataUnit">
+					<img src="image/memPic5.jpg">
+					Gary The Gull
+				</div>
+			</div>
+		</div>
+		<div class="contentUnit">
+				<div class="title">收藏場館</div>
+				<div class="data">
+					<div class="dataUnit">
+						<img src="image/place02.jpg">
+						VIVE VRLAND 三創科學園區
+					</div>
+				</div>
+			</div>
+	</div>
+</div>
+
+<div class="content" id="tab3">
+	<div class="container">
+		<div class="contentUnit">
+			<div class="title">我的朋友</div>
+			<div class="data">
+				<div class="dataUnit">
+					<img src="image/friend1.jpg">
+					Manna Chen
+				</div>
+				<div class="dataUnit">
+					<img src="image/friend2.jpg">
+					David Alin
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="content" id="tab4">
+	<div class="container">
+		<div class="contentUnit">
+			<div class="title">我的設備</div>
+			<div class="data">
+				<div class="dataUnit">
+					<img src="image/shop-pArea1-3.png">
+					VIVE專屬頭戴式耳機
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="content" id="tab5">
+	<div class="container">
+		<div class="contentUnit">
+			<div class="title">製作</div>
+			<div class="data">
+				<div class="dataUnit">
+					<img src="image/fea_02.png">
+					製作於2017.11.14 by Tilt Brush
+					(<i class="fa fa-eye"></i>23人看過)
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="content" id="tab6">
+	<div class="container">
+		<div class="contentUnit">
+			<div class="title">我的購物車</div>
+			<div class="data">
+				<div class="dataUnit">
+					您的購物車裡面目前沒有商品，趕緊前往<a href="shop.html">WOW商店</a>進行瀏覽吧！
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<div id="vh60"></div>
+
+<!-- 線上即時客服功能1113 -->
+<div id="clerk">
+	<input type="checkbox" id="clerkPanel">
+	<label for="clerkPanel" id="ttch">
+		<i class="fa fa-comments-o"></i>
+	</label>
+	<div class="clerkMenu">
+	<p>
+		<img src="image/sally.png">
+	Hi Roller, 有什麼可以為您服務的嗎？</p>
+	<input type="textarea" placeholder="請輸入...">
+	</div>
+</div>
+<!-- 以上 -->
+
+<!-- 以下各頁面共用footer, copyright 1107 -->
+
+
+<div id="copyright">
+	<h6>©  2017 eye, WOW! Group. All Rights Reserved.</h6>
+</div>
+<!-- 以上 -->
+</body>
+</html>
