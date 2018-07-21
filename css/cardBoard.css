@@ -1,0 +1,325 @@
+*{
+	font-family: 微軟正黑體;
+}
+@media screen and (max-width: 767px){
+*{
+	/*outline: 1px blue solid;*/
+	margin: 0;
+	padding: 0;
+}body{
+	background-color: #f9f9f9;
+	font-family: 微軟正黑體;
+}.mobileMenu ul li{
+	padding-left: 50px;	
+}#wrapper{
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}.bn{
+	width: 100%;
+	height: 550px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	box-shadow: 1px 1px 10px gray;
+}.bn0{
+	height: 300px;
+	background-color: #f3f3f3;
+	box-shadow: none;
+	text-align: center;
+}.bn1{
+	background-image: url(../image/cardboard.png);
+	background-position: 50% 0%;
+	position: relative;
+	background-color: #fefefe;
+	background-size: 120%;
+}.bn2{
+	background-image: url(../image/cardboard_bn2.jpg);
+	background-size: 200%;
+	background-position: -10% 0px;
+	background-color: #f9f9f9;
+}#bn2{
+	transition: 1s ease-out;
+}.bn3{
+	background-image: url(../image/cardboard_bn5.jpg);
+	background-size: 70%;
+	background-position: 50% 20%;
+	background-color: #f9f9f9;
+}.bn4{
+	width: 100%;
+	background-color: #fff;
+}.bn4 img{
+	width: 60%;
+	z-index: -1;
+	margin: 50px 20%;
+}#text0{
+	padding-top: 90px;
+	width: 80%;
+	margin-left: 10%;
+}#text1, #text2, #text3, #text4{
+	width: 80%;
+	height: 200px;
+	margin: 300px 10% 0px 10%;
+	position: absolute;
+	text-align: center;
+}h1{
+	font-size: 22px;
+	color: black;
+	margin: 5px;
+	font-weight: bold;
+}p{
+	font-size: 16px;
+	color: black;
+	margin: 5px;
+	margin-top: 15px;
+	font-weight: normal;
+}.bn1 img{
+	position: absolute;
+	display: block;
+	width: 50%;
+	left: 25%;
+	bottom: 0;
+	background-color: transparent;
+	z-index: -1;
+	transition: 1s ease-out;
+	opacity: 0;
+}input{
+	width: 120px;
+	height: 40px;
+	background-color: #191970;
+	border: 2px solid black;
+	border-radius: 30px;
+	font-size: 16px;
+	color: ivory;
+	margin-top: 25px;
+	transition: .5s;
+	outline: none;
+}input:hover{
+	background-color: #B0C4DE;
+	border: 2px solid #191970;
+	color: #222;
+	cursor: pointer;
+}
+}
+
+
+@media screen and (min-width: 767px) and (max-width: 1200px){
+*{
+	/*outline: 1px yellow solid;*/
+	margin: 0;
+	padding: 0;
+}body{
+	background-color: #f9f9f9;
+	font-family: 微軟正黑體;
+}#wrapper{
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}.bn{
+	width: 100%;
+	height: 400px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	box-shadow: 1px 1px 10px gray;
+}.bn0{
+	height: 400px;
+	background-color: #f3f3f3;
+	box-shadow: none;
+	text-align: center;
+}.bn1{
+	background-image: url(../image/cardboard.png);
+	background-position: 100% 40%;
+	position: relative;
+	background-color: #fefefe;
+	background-size: 55%;
+}.bn2{
+	background-image: url(../image/cardboard_bn2.jpg);
+	background-size: 95%;
+	background-position: 90% 40px;
+	background-color: #f9f9f9;
+}#bn2{
+	transition: 1s ease-out;
+}.bn3{
+	background-image: url(../image/cardboard_bn5.jpg);
+	background-size: 35%;
+	background-position: 15% 50%;
+	background-color: #f9f9f9;
+}.bn4{
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+}.bn4 img{
+	transform: scale(0.7);
+	z-index: -1;
+	margin-left: 50%;
+}#text0{
+	padding-top: 130px;
+	width: 80%;
+	margin-left: 10%;
+}#text1, #text2, #text3, #text4{
+	width: 40%;
+	height: 200px;
+	margin-top: 70px;
+	position: absolute;
+	text-align: left;
+}#text1, #text4{
+	left: 13%;
+}#text2, #text3{
+	right: 7%;
+	color: red;
+}h1{
+	font-size: 24px;
+	color: black;
+	margin: 5px;
+	font-weight: bold;
+}p{
+	font-size: 18px;
+	color: black;
+	margin: 5px;
+	margin-top: 15px;
+	font-weight: normal;
+}.bn1 img{
+	position: absolute;
+	display: block;
+	width: 50%;
+	left: 25%;
+	bottom: 0;
+	background-color: transparent;
+	z-index: -1;
+	transition: 1s ease-out;
+	opacity: 0;
+}input{
+	width: 120px;
+	height: 40px;
+	background-color: #191970;
+	border: 2px solid black;
+	border-radius: 30px;
+	font-size: 16px;
+	color: ivory;
+	margin-top: 25px;
+	transition: .5s;
+	outline: none;
+}input:hover{
+	background-color: #B0C4DE;
+	border: 2px solid #191970;
+	color: #222;
+	cursor: pointer;
+}
+}
+
+
+@media screen and (min-width: 1200px){
+*{
+	/*outline: 1px red solid;*/
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+	font-family: 微軟正黑體;
+	font-weight: 700;
+}body{
+	background-color: #333;
+	height: 1000px;	
+}nav ul li:nth-child(3) a{
+	color: lightsteelblue;
+	border-bottom: 2px solid lightsteelblue;
+}#wrapper{
+	width: 100%;
+	max-width: 1920px;
+	margin: 0 auto;
+	position: relative;
+}.bn{
+	width: 100%;
+	height: 500px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	box-shadow: 1px 1px 10px gray;
+}.bn h1{
+	font-size: 32px;
+	color: #333;
+}.bn p{
+	font-size: 22px;
+	color: #333;
+}.bn0{
+	height: 400px;
+	background-color: #f3f3f3;
+	box-shadow: none;
+	text-align: center;
+}.bn1{
+	background-image: url(../image/cardboard.png);
+	background-position: 90% 0px;
+	position: relative;
+	background-color: #fefefe;
+}.bn2{
+	background-image: url(../image/cardboard_bn2.jpg);
+	background-size: 78%;
+	background-position: 50% 15px;
+	background-color: #f9f9f9;
+}#bn2{
+	transition: 1s ease-out;
+}.bn3{
+	background-image: url(../image/cardboard_bn5.jpg);
+	background-size: 30%;
+	background-position: 20% 50%;
+	background-color: #f9f9f9;
+}.bn4{
+	width: 100%;
+	background-color: #fff;
+}.bn4 img{
+	transform: scale(0.95);
+	z-index: -1;
+	margin-left: 55%;
+	margin-top: 40px;
+}#text0{
+	padding-top: 130px;
+}#text1, #text2, #text3, #text4{
+	width: 30%;
+	height: 200px;
+	margin-top: 120px;
+	position: absolute;
+	text-align: left;
+}#text1, #text4{
+	left: 13%;
+}#text2, #text3{
+	right: 13%;
+	color: red;
+}h1{
+	font-size: 24px;
+	color: black;
+	margin: 5px;
+	font-weight: bold;
+}p{
+	font-size: 18px;
+	color: black;
+	margin: 5px;
+	margin-top: 15px;
+	font-weight: normal;
+}.bn1 img{
+	position: absolute;
+	display: block;
+	width: 50%;
+	left: 25%;
+	bottom: 0;
+	background-color: transparent;
+	z-index: -1;
+	transition: 1s ease-out;
+	opacity: 0;
+}input{
+	width: 120px;
+	height: 40px;
+	background-color: #191970;
+	border: 2px solid black;
+	border-radius: 30px;
+	font-size: 16px;
+	color: ivory;
+	margin-top: 25px;
+	transition: .5s;
+	outline: none;
+}input:hover{
+	background-color: #B0C4DE;
+	border: 2px solid #191970;
+	color: #222;
+	cursor: pointer;
+}
+}

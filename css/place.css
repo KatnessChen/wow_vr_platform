@@ -1,0 +1,644 @@
+@media screen and (max-width: 767px){
+*{
+	font-size: 0;
+	margin: 0;
+	padding: 0;
+	/*outline: 1px blue solid;*/
+	font-family: 微軟正黑體;
+}body{
+	background-color: #000;
+}.mobileMenu li{
+	padding-left: 50px;
+}#bn{
+	width: 100%;
+	background-color: #ccc;
+	position: relative;
+	min-width: 400px;
+}.bncenter{
+	width: 75%;
+	margin-left: 12.5%;
+	padding-top: 125px;
+	padding-bottom: 125px;
+	position: relative;
+	z-index: 2;
+}.bnleft{
+	display: none;
+}.bnright{
+	display: none;
+}.bnpic img{
+	width: 100%;
+	overflow: scroll;
+}.picControl{
+	width: 60px;
+	height: 80px;
+	background-color: #000;
+	font-size: 16px;
+	color: aqua;
+	top: 42%;
+	position: absolute;
+	z-index: 3;
+}.picControl i{
+	transform: scale(3);
+	position: absolute;
+	top: 32.5px;
+}#bn #leftBN i{
+	left: 20px;
+	animation: picControlLeft 1s ease-in;
+	animation-iteration-count: infinite;
+}#bn #rightBN i{
+	right: 20px;
+	animation: picControlRight 1s ease-in;
+	animation-iteration-count: infinite;
+}@keyframes picControlLeft{
+	0% {left: 18px;} 
+	50% {left: 25px;}
+	100% {left: 18px;} 
+}@keyframes picControlRight{
+	0% {right: 18px;} 
+	50% {right: 25px;}
+	100% {right: 18px;} 
+}.left{
+	left: 0px;
+}.right{
+	right: 0px;
+}#pomotion{
+	width: 100%;
+	height: 500px;
+	background-color: #222;
+}#pomotion .text{
+	width: 75%;
+	margin-left: 12.5%;
+	margin-top: 0;
+}#pomotion .text h1{
+	padding: 40px 0px 20px 0px;
+	font-size: 32px;
+	color: ivory;
+	animation: titleJump 1s linear;
+	animation-iteration-count: infinite;
+}#pomotion .text p:nth-child(even), #pomotion .text p:nth-child(even) a{/*活動名稱*/
+	font-size: 18px;
+	color: aqua;
+	margin-bottom: 6px;
+	text-decoration: none;
+}#pomotion .text p:nth-child(odd){/*活動內容*/
+	font-size: 16px;
+	color: white;
+	margin-bottom: 15px;
+}.skewedbg{
+	width: 100%;
+	height: 400px;
+	margin-top: 0px;
+	margin-bottom: 50px;
+	background: linear-gradient(-120deg, lightseagreen, navy);
+	transform: skew(0deg, -30deg);
+}.skewedbg .text{
+	transform: skew(0deg, 30deg);
+	text-align: center;
+	font-family: arial;
+	color: white;
+	width: 100%;
+	/*margin-left: 12.5%;*/
+}.skewedbg .text video{
+	width: 500px;
+	height: auto;
+	margin-top: -100px;
+}.skewedbg .text .title{
+	padding-top: 40px;
+	font-size: 32px;
+	animation: titleJump 1s linear;
+	animation-iteration-count: infinite;
+}.skewedbg .text .content{
+	width: 75%;
+	margin: 20px auto;      
+	color: lighten(#00B285, 55);
+	font-size: 18px;
+	color: ivory;
+}#partytime{
+	width: 100%;
+	height: 800px;
+	background-color: #222;
+}#partytime form{
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 15%;
+	display: inline-block;
+}#partytime form input{
+	font-size: 16px;
+}#partytime .txt{	
+	color: white;
+	width: 50%;
+	margin-left: 25%;
+	text-align: center;
+	display: inline-block;
+}#partytime .txt h1{
+	font-size: 30px;
+	padding: 40px 0px 20px 0px;
+	animation: titleJump 1s linear;
+	animation-iteration-count: infinite;
+}#partytime .txt p:nth-child(even){/*標題*/
+	font-size: 18px;
+	color: aqua;
+	margin-bottom: 6px;
+}#partytime .txt p:nth-child(odd){/*內容*/
+	font-size: 16px;
+	color: ivory;
+	margin-bottom: 15px;
+}@keyframes titleJump{
+	0%{transform: translateY(-5px);}
+	50%{transform: translateY(0px);}
+	100%{transform: translateY(-5px);}
+}#yourlocation{
+	display: block;
+	background-color: #222;
+	padding-left: 10vw;
+	padding-bottom: 30px;
+}#yourlocation form select{
+	font-size: 18px;
+}#yourlocation h1{
+	padding: 40px 0px 20px 0px;
+	font-size: 32px;
+	color: ivory;
+	animation: titleJump 1s linear;
+	animation-iteration-count: infinite;
+	display: inline-block;
+}#map{
+	width: 100%;
+	height: 300px;
+	position: relative;
+}table{
+	background-color: #222;
+	border: 3px solid navy;
+	border-radius: 5px;
+	cursor: pointer;
+	margin: 0 auto;
+	margin-top: -30px;
+}caption{
+	font-size: 20px;
+	color: white;
+	margin-bottom: 10px;
+}td{
+	font-size: 15px;
+	color: #222;
+	background-color: white;
+	border:1px solid lightseagreen;
+	border-radius: 5px;
+	padding: 5px;
+}td:hover{
+	color: white;
+	background-color: #222;
+}#partytime form{
+	text-align: center;
+}#datebtn{
+	background-color: #191970;
+	border: 2px solid white;
+	outline: none;
+	color: ivory;
+	font-size: 16px;
+	margin: 10px auto 50px auto;
+	padding: 10px 25px;
+	border-radius: 25px;
+	cursor: pointer;
+	transition: .3s;
+}#datebtn:hover{
+	background-color: ivory;
+	color: #191970;
+}
+}
+
+@media screen and (min-width: 767px) and (max-width: 1200px){
+*{
+	font-size: 0;
+	margin: 0;
+	padding: 0;
+	/*outline: 1px yellow solid;*/
+	font-family: 微軟正黑體;
+}body{
+	background-color: #000;
+}nav ul li:nth-child(2) a{
+	color: lightsteelblue;
+	border-bottom: 2px solid lightsteelblue;
+}#bn{
+	width: 100%;
+	background-color: #ccc;
+	position: relative;
+}#bn{
+	width: 100%;
+	background-color: #ccc;
+	position: relative;
+}.bncenter{
+	width: 70%;
+	margin-left: 15%;
+	padding-top: 125px;
+	padding-bottom: 125px;
+	position: relative;
+	z-index: 2;
+}.bnleft{
+	width: 80%;
+	position: absolute;
+	top: 30%;
+	left: -10%;
+	z-index: -1;
+}.bnleft:hover{
+}.bnright{
+	width: 80%;
+	position: absolute;
+	top: 30%;
+	right: -10%;
+	z-index: -1;
+}.bnpic img{
+	width: 100%;
+	overflow: scroll;
+}.picControl{
+	width: 60px;
+	height: 80px;
+	background-color: #000;
+	font-size: 16px;
+	color: aqua;
+	top: 42%;
+	position: absolute;
+	z-index: 3;
+}.picControl i{
+	transform: scale(3);
+	position: absolute;
+	top: 32.5px;
+}#bn #leftBN i{
+	left: 20px;
+	animation: picControlLeft 1s ease-in;
+	animation-iteration-count: infinite;
+}#bn #rightBN i{
+	right: 20px;
+	animation: picControlRight 1s ease-in;
+	animation-iteration-count: infinite;
+}@keyframes picControlLeft{
+	0% {left: 18px;} 
+	50% {left: 25px;}
+	100% {left: 18px;} 
+}@keyframes picControlRight{
+	0% {right: 18px;} 
+	50% {right: 25px;}
+	100% {right: 18px;} 
+}.left{
+	left: 0px;
+}.right{
+	right: 0px;
+}#pomotion{
+	width: 100%;
+	height: 500px;
+	background-color: #222;
+	padding-top: 50px;
+	margin-bottom: 50px;
+}#pomotion .text{
+	width: 70%;
+	margin-left: 15%;
+	margin-top: 0;
+}#pomotion .text h1{
+	padding: 40px 0px 20px 0px;
+	font-size: 32px;
+	color: ivory;
+	animation: titleJump 1s linear;
+	animation-iteration-count: infinite;
+}#pomotion .text p:nth-child(even), #pomotion .text p:nth-child(even) a{/*活動名稱*/
+	font-size: 18px;
+	color: aqua;
+	margin-bottom: 6px;
+	text-decoration: none;
+}#pomotion .text p:nth-child(odd){/*活動內容*/
+	font-size: 16px;
+	color: white;
+	margin-bottom: 15px;
+}.skewedbg{
+	width: 100%;
+	height: 400px;
+	margin-top: 0px;
+	margin-bottom: 50px;
+	background: linear-gradient(-120deg, lightseagreen, navy);
+	transform: skew(0deg, -30deg);
+}.skewedbg .text{
+	transform: skew(0deg, 30deg);
+	text-align: center;
+	font-family: arial;
+	color: white;
+}.skewedbg .text video{
+	width: 600px;
+	height: auto;
+	margin-top: -150px;
+}.skewedbg .text .title{
+	width: 75%;
+	margin-left: 12.5%;
+	padding-top: 40px;
+	font-size: 32px;
+	animation: titleJump 1s linear;
+	animation-iteration-count: infinite;
+}.skewedbg .text .content{
+	width: 75%;
+	margin: 20px auto;      
+	color: lighten(#00B285, 55);
+	font-size: 18px;
+	color: ivory;
+}#partytime{
+	width: 100%;
+	background-color: #222;
+}#partytime form{
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 15%;
+	display: inline-block;
+}#partytime form input{
+	font-size: 16px;
+}#partytime .txt{	
+	color: white;
+	margin-left: 10%;
+	width: 80%;
+	height: 10px;
+	text-align: center;
+	display: inline-block;
+	margin-bottom: 400px;
+}#partytime .txt h1{
+	font-size: 30px;
+	padding: 40px 0px 20px 0px;
+	animation: titleJump 1s linear;
+	animation-iteration-count: infinite;
+}#partytime .txt p:nth-child(even){/*標題*/
+	font-size: 18px;
+	color: aqua;
+	margin-bottom: 6px;
+}#partytime .txt p:nth-child(odd){/*內容*/
+	font-size: 16px;
+	color: ivory;
+	margin-bottom: 15px;
+}@keyframes titleJump{
+	0%{transform: translateY(-5px);}
+	50%{transform: translateY(0px);}
+	100%{transform: translateY(-5px);}
+}#yourlocation{
+	display: block;
+	background-color: #222;
+	padding-left: 10vw;
+	padding-bottom: 30px;
+}#yourlocation form select{
+	font-size: 18px;
+}#yourlocation h1{
+	padding: 40px 0px 20px 0px;
+	font-size: 32px;
+	color: ivory;
+	animation: titleJump 1s linear;
+	animation-iteration-count: infinite;
+	display: inline-block;
+}#map{
+	width: 100%;
+	height: 300px;
+	position: relative;
+}table{
+	background-color: #222;
+	border: 3px solid navy;
+	border-radius: 5px;
+	cursor: pointer;
+	margin: 0 auto;
+	margin-top: -30px;
+}caption{
+	font-size: 20px;
+	color: white;
+	margin-bottom: 10px;
+}td{
+	font-size: 15px;
+	color: #222;
+	background-color: white;
+	border:1px solid lightseagreen;
+	border-radius: 5px;
+	padding: 5px;
+}td:hover{
+	color: white;
+	background-color: #222;
+}#partytime form{
+	text-align: center;
+}#datebtn{
+	background-color: #191970;
+	border: 2px solid white;
+	outline: none;
+	color: ivory;
+	font-size: 16px;
+	margin: 10px auto 50px auto;
+	padding: 10px 25px;
+	border-radius: 25px;
+	cursor: pointer;
+	transition: .3s;
+}#datebtn:hover{
+	background-color: ivory;
+	color: #191970;
+}
+}
+@media screen and (min-width: 1200px){
+*{
+	font-size: 0;
+	margin: 0;
+	padding: 0;
+	/*outline: 1px red solid;*/
+	font-family: 微軟正黑體;
+}
+body{
+	background-color: #000;
+}nav ul li:nth-child(2) a{
+	color: lightsteelblue;
+	border-bottom: 2px solid lightsteelblue;
+}#bn{
+	width: 100%;
+	background-color: #ccc;
+	position: relative;
+}.bncenter{
+	max-width: 1920px;
+	width: 36%;
+	margin-left: 32%;
+	padding-top: 125px;
+	padding-bottom: 125px;
+	position: relative;
+	z-index: 2;
+}.bnleft{
+	width: 60%;
+	position: absolute;
+	top: 30%;
+	left: -40%;
+	z-index: -1;
+}.bnleft:hover{
+}.bnright{
+	width: 60%;
+	position: absolute;
+	top: 30%;
+	left: 80%;
+	z-index: -1;
+}.bnpic img{
+	width: 100%;
+	overflow: scroll;
+}.picControl{
+	width: 60px;
+	height: 80px;
+	background-color: #000;
+	font-size: 16px;
+	color: aqua;
+	top: 42%;
+	position: absolute;
+	z-index: 3;
+}.picControl i{
+	transform: scale(3);
+	position: absolute;
+	top: 32.5px;
+}#bn #leftBN i{
+	left: 20px;
+	animation: picControlLeft 1s ease-in;
+	animation-iteration-count: infinite;
+}#bn #rightBN i{
+	right: 20px;
+	animation: picControlRight 1s ease-in;
+	animation-iteration-count: infinite;
+}@keyframes picControlLeft{
+	0% {left: 18px;} 
+	50% {left: 25px;}
+	100% {left: 18px;} 
+}@keyframes picControlRight{
+	0% {right: 18px;} 
+	50% {right: 25px;}
+	100% {right: 18px;} 
+}.left{
+	left: 0px;
+}.right{
+	right: 0px;
+}#pomotion{
+	width: 100%;
+	height: 500px;
+	background-color: #222;
+}#pomotion .text{
+	width: 50%;
+	margin-left: 10%;
+	margin-top: 0;
+}#pomotion .text h1{
+	padding: 40px 0px 20px 0px;
+	font-size: 32px;
+	color: ivory;
+	animation: titleJump 1s linear;
+	animation-iteration-count: infinite;
+}#pomotion .text p:nth-child(even), #pomotion .text p:nth-child(even) a{/*活動名稱*/
+	font-size: 18px;
+	color: aqua;
+	margin-bottom: 6px;
+	text-decoration: none;
+}#pomotion .text p:nth-child(odd){/*活動內容*/
+	font-size: 16px;
+	color: white;
+	margin-bottom: 15px;
+}.skewedbg{
+	width: 100%;
+	height: 400px;
+	margin-top: 0px;
+	margin-bottom: 50px;
+	background: linear-gradient(-120deg, lightseagreen, navy);
+	transform: skew(0deg, -30deg);
+}.skewedbg .text{
+	transform: skew(0deg, 30deg);
+	text-align: center;
+	font-family: arial;
+	color: white;
+}.skewedbg .text video{
+	width: 500px;
+	height: auto;
+	margin-top: -100px;
+}.skewedbg .text .title{
+	padding-top: 40px;
+	font-size: 32px;
+	animation: titleJump 1s linear;
+	animation-iteration-count: infinite;
+}
+.skewedbg .text .content{
+	width: 50%;
+	margin: 20px auto;      
+	color: lighten(#00B285, 55);
+	font-size: 18px;
+	color: ivory;
+}#partytime{
+	width: 50%;
+	background-color: #222;
+	margin-left: 50%;
+}#partytime form{
+	width: 40%;
+	float: left;
+	text-align: center;
+}#partytime .txt{	
+	width: 50%;
+	float: left;
+	color: white;
+	text-align: left;
+	margin-top: -30px;
+}#partytime .txt h1{
+	font-size: 30px;
+	padding: 0 0px 20px 0px;
+	animation: titleJump 1s linear;
+	animation-iteration-count: infinite;
+}#partytime .txt p:nth-child(even){/*標題*/
+	font-size: 18px;
+	color: aqua;
+	margin-bottom: 6px;
+}#partytime .txt p:nth-child(odd){/*內容*/
+	font-size: 16px;
+	color: ivory;
+	margin-bottom: 15px;
+}@keyframes titleJump{
+	0%{transform: translateY(-5px);}
+	50%{transform: translateY(0px);}
+	100%{transform: translateY(-5px);}
+}#yourlocation{
+	display: block;
+	background-color: #222;
+	padding-left: 20vw;
+	padding-bottom: 30px;
+	clear: both;
+}#yourlocation form select{
+	font-size: 18px;
+}#yourlocation h1{
+	padding: 40px 0px 20px 0px;
+	font-size: 32px;
+	color: ivory;
+	animation: titleJump 1s linear;
+	animation-iteration-count: infinite;
+	display: inline-block;
+}#map{
+	width: 100%;
+	height: 300px;
+	position: relative;
+}table{
+	background-color: #222;
+	border: 3px solid navy;
+	border-radius: 5px;
+	cursor: pointer;
+	margin: 0 auto;
+	margin-top: -30px;
+}caption{
+	font-size: 20px;
+	color: white;
+	margin-bottom: 10px;
+}td{
+	font-size: 15px;
+	color: #222;
+	background-color: white;
+	border:1px solid lightseagreen;
+	border-radius: 5px;
+	padding: 5px;
+}td:hover{
+	color: white;
+	background-color: #222;
+}#partytime form{
+	text-align: center;
+}#datebtn{
+	background-color: #191970;
+	border: 2px solid white;
+	outline: none;
+	color: ivory;
+	font-size: 16px;
+	margin: 10px auto 50px auto;
+	padding: 10px 25px;
+	border-radius: 25px;
+	cursor: pointer;
+	transition: .3s;
+}#datebtn:hover{
+	background-color: ivory;
+	color: #191970;
+}
+}
+
